@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ["Great Vibes"],
+      signature: ["sans-serif"],
     },
   },
   plugins: [],
