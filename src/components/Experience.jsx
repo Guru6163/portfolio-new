@@ -3,9 +3,12 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import typescript from "../assets/typescript.png";
+import nodejs from "../assets/nodejs.png";
+import express from "../assets/express.png";
+import docker from "../assets/docker.png";
+import python from "../assets/python.png";
+import react from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -25,38 +28,57 @@ const Experience = () => {
     },
     {
       id: 3,
+      src: python,
+      title: "Python",
+      style: "shadow-white",
+    },
+    {
+      id: 4,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 5,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
-      src: reactImage,
+      id: 6,
+      src: react,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 7,
+      src: nodejs,
+      title: "Node Js",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 8,
+      src: express,
+      title: "Express JS",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 9,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
+
     {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 8,
+      id: 10,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: docker,
+      title: "Docker",
       style: "shadow-gray-400",
     },
   ];
@@ -80,7 +102,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt="id" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
