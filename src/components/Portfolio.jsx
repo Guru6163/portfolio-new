@@ -2,14 +2,18 @@ import React from "react";
 import Netflix from "../assets/portfolio/Netflix.png";
 import Ecommerce from "../assets/portfolio/Ecommerce.png";
 import Advicer from "../assets/portfolio/Advicer.png";
+import PasswordGenerator from "../assets/portfolio/PasswordGenerator.png"
+import DadJokes from "../assets/portfolio/DadJokes.png"
+import CountDown from "../assets/portfolio/CountDown.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: Netflix,
-      name: "Netflix UI",
-      sourceCode: "https://github.com/Guru6163/Netflix",
+      src: PasswordGenerator,
+      name: "Password Generator",
+      sourceCode: "https://github.com/Guru6163/passwordGenerator",
+      demo: "https://shiny-pastelito-1e63a9.netlify.app/",
     },
     {
       id: 2,
@@ -20,6 +24,26 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: DadJokes,
+      name: "Dad Jokes",
+      sourceCode: "https://github.com/Guru6163/dadJokes",
+      demo: "https://nimble-blini-98a52d.netlify.app/",
+    },
+    {
+      id: 4,
+      src: Netflix,
+      name: "Netflix UI",
+      sourceCode: "https://github.com/Guru6163/Netflix",
+    },
+    {
+      id: 5,
+      src: CountDown,
+      name: "Newyear Countdown",
+      sourceCode: "https://github.com/Guru6163/countdown-timer",
+      demo: "https://animated-wisp-68bca7.netlify.app/",
+    },
+    {
+      id: 6,
       src: Advicer,
       name: "Random Advicer",
       sourceCode: "https://github.com/Guru6163/advicer",
